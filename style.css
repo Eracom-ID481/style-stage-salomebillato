@@ -11,11 +11,15 @@
 
 html {
     --primary: #7fffD4;
+    --secondary: #0000ff
 }
 
 /* Remove default margin */
 body,
-h1,
+h1 {
+    color: var(--secondary);
+}
+
 h2,
 h3,
 h4,
