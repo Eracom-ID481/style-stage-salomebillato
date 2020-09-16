@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html {
+    --primary: #7fffD4;
+}
+
 /* Remove default margin */
 body,
 h1,
@@ -31,7 +35,7 @@ body {
     line-height: 3;
     text-rendering: optimizeSpeed;
     overflow-x: hidden;
-    background-color: Red
+    background-color: var(--primary);
 }
 
 /* Make images easier to work with */
