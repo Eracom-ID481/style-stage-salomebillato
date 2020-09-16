@@ -10,8 +10,8 @@
 }
 
 html {
-    --primary: #7fffD4;
-    --secondary: #0000ff
+    --primary: #242582;
+    --secondary: #f64c72;
 }
 
 /* Remove default margin */
@@ -20,11 +20,24 @@ h1 {
     color: var(--secondary);
 }
 
-h2,
-h3,
-h4,
-h5,
+h2, {
+    color: var(--secondary);
+}
+
+h3, {
+    color: var(--secondary);
+}
+
+h4, {
+    color: var(--secondary);
+}
+
+h5, {
+    color: var(--secondary);
+}
+
 h6 {
+    color: var(--secondary);
     margin: 0;
 }
 
