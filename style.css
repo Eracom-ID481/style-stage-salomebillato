@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+.container {
+    Display: grid;
+    place-items: center;
+}
+
 html {
     --primary: #242582;
     --secondary: #f64c72;
