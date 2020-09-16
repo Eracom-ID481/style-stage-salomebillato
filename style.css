@@ -27,8 +27,8 @@ html {
 /* Set core body defaults */
 body {
     min-height: 100vh;
-    font-size: 80%;
-    line-height: 1.5;
+    font-size: 200%;
+    line-height: 3;
     text-rendering: optimizeSpeed;
     overflow-x: hidden;
     background-color: Red
@@ -58,4 +58,5 @@ select {
     }
 }
 
+font-family: 'Roboto Mono', monospace;
 /* Fin du CSS Reset */
