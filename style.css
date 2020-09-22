@@ -15,34 +15,39 @@
 }
 
 html {
-    --primary: #242582;
-    --secondary: #f64c72;
+    --primary-typ: #000000;
+    --primary-background: #ffb6c1;
+    --secondary-background: #0000ff;
+    --secondary-typ: #ffffff;
 }
 
 /* Remove default margin */
-body,
+body {
+    font-family: 'Anton', sans-serif;
+}
+
 h1 {
-    color: var(--secondary);
+    color: var(--primary-typ);
 }
 
 h2, {
-    color: var(--secondary);
+    color: var(--primary-typ);
 }
 
 h3, {
-    color: var(--secondary);
+    color: var(--primary-typ);
 }
 
 h4, {
-    color: var(--secondary);
+    color: var(--primary-typ);
 }
 
 h5, {
-    color: var(--secondary);
+    color: var(-primary-typ);
 }
 
 h6 {
-    color: var(--secondary);
+    color: var(--primary-typ);
     margin: 0;
 }
 
@@ -54,10 +59,10 @@ html {
 body {
     min-height: 100vh;
     font-size: 200%;
-    line-height: 3;
+    line-height: 2;
     text-rendering: optimizeSpeed;
     overflow-x: hidden;
-    background-color: var(--primary);
+    background-color: var(--primary-background);
 }
 
 /* Make images easier to work with */
@@ -84,5 +89,4 @@ select {
     }
 }
 
-font-family: 'Roboto Mono', monospace;
 /* Fin du CSS Reset */
