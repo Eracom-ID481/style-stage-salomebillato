@@ -91,7 +91,9 @@ img:not([alt]) {
     place-items: center;
 }
 
-header .container {
+<style>@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+</style>header .container {
     background-color: var(--primary-background);
 }
 
