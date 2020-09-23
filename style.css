@@ -118,8 +118,12 @@ h1, h2, h3, h4, h5 {
 
 h1 {
     color: var(--primary-typ);
-    font-size: 1500%;
-    margin-top: 200px
+    font-size: 1000%;
+    margin-top: 200px;
+    margin: 0;
+    writing-mode: vertical-lr;
+    text-align: center;
+    line-height: .9;
 }
 
 p {
@@ -138,4 +142,8 @@ a {
     color: #000000;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+html {
+    font-family: "didot";
 }
