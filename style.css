@@ -108,7 +108,10 @@ body {
 
 h1, h2, h3, h4, h5 {
     color: var(--primary-typ);
-    margin-top: 500px
+    margin-top: 500px;
+    font-size: 500%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h1 {
@@ -119,12 +122,18 @@ h1 {
 
 p {
     color: var(--primary-typ);
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 li {
     color: var(--primary-typ);
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 a {
     color: #000000;
+    margin-left: 50px;
+    margin-right: 50px;
 }
