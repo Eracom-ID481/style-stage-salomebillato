@@ -157,10 +157,22 @@ html {
     font-family: "didot";
 }
 
-path {
-    display: none;
-}
-
 main:focus {
     outline: none;
+}
+
+a.link-github {
+    min-width: 10%;
+    margin: 3rem;
+    background: black;
+    padding: 1rem;
+    color: var(--primary-background);
+}
+
+a.link-github svg {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.15em;
+    fill: var(--primary-background);
+    stroke: var(--primary-typ);
 }
