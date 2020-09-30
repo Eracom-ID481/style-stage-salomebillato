@@ -112,15 +112,13 @@ h1, h2, h3, h4, h5 {
     color: var(--primary-typ);
     margin-top: 500px;
     font-size: 500%;
-    margin-left: 50px;
-    margin-right: 50px;
+    text-align: center;
 }
 
 h1 {
     color: var(--primary-typ);
     font-size: 1000%;
-    margin-top: 400px;
-    margin: 0;
+    margin-top: 100px;
     writing-mode: vertical-lr;
     text-align: center;
     line-height: .9;
@@ -128,22 +126,41 @@ h1 {
 
 p {
     color: var(--primary-typ);
-    margin-left: 50px;
-    margin-right: 50px;
+    text-align: center;
 }
 
 li {
     color: var(--primary-typ);
-    margin-left: 50px;
-    margin-right: 50px;
+    text-align: center;
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 200%
+}
+
+nav li {
+    margin-right: 50px
 }
 
 a {
     color: #000000;
-    margin-left: 50px;
-    margin-right: 50px;
+    text-align: center;
 }
 
 html {
     font-family: "didot";
+}
+
+path {
+    display: none;
+}
+
+main:focus {
+    outline: none;
 }
